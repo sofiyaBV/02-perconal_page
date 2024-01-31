@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Page from "./pages/Page";
+import URL from "./img/myPhoto.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Page
+        birth="11.08.2005"
+        phone="0739870397"
+        email="cofiyabondar8@gmail.com"
+        city="Николаев"
+        studies="Шаг"
+        url={URL}
+      />
     </div>
   );
 }

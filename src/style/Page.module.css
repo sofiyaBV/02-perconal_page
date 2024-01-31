@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(146, 190, 125);
+
+}
+.info_details{
+text-align:  center;
+margin: 0 auto;
+}
+.div_info{
+    margin: 0 5vw;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 94, 51);
+}
+.div_info h2{
+    text-align: center;
+}
+.div_info img{
+    width: 20vw;
+    margin-left: 5vw;
+    padding: 2vw 0;
+}
+.info span{
+    color: rgb(9, 37, 0);
+}
